@@ -1,0 +1,142 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(208, 165, 235);
+    height: 80px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+.logo-span{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    position: absolute;
+    left: 50px;
+    background-image: url(./logo_img.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.logo{
+    color:rgb(208, 165, 235);
+    font-size: 40px;
+    text-decoration: none;
+}
+.login-signup{
+    position: absolute;
+    right: 10px;
+    word-spacing: 10px;
+}
+.login{
+    color: white;
+    background: transparent;
+    border: 2px solid rgb(150, 14, 234);
+    border-radius: 6px;
+    width: 70px;
+    font-size: 15px;
+    height: 35px;
+    cursor: pointer;
+}
+.create-account{
+    color: white;
+    background: transparent;
+    border: 2px solid rgb(150, 14, 234);
+    border-radius: 5px;
+    padding: 5px 5px;
+    word-spacing: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login:hover{
+    background: black;
+    color: red;
+    font-weight: 600;
+    width: 90px;
+    transition: ease 0.3s;
+}
+.create-account:hover{
+    background: black;
+    color: red;
+    font-weight: 600;
+    width: 150px;
+    transition: ease 0.3s;
+}
+section{
+    position: relative;
+    padding: 20px 50px;
+}
+.title-text{
+    color: blue;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: none;
+}
+.filters-article{
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-top: 10px;
+    width: 250px;
+    height: 600px;
+}
+.result1-article{
+    display: flex;
+    flex-direction: row;
+    top: 80px;
+    left: 350px;
+    width: 794px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+}
+.result1-article:hover{
+    box-shadow: 13px 13px 20px #00000029;
+    border: 1px solid black;
+}
+.food-picture{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    height: 100%;
+    width: 30%;
+}
+.food-details{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    height: 100%;
+    width: 65%;
+    margin-left: 5%;
+    
+}
+.result2-article{
+    display: flex;
+    flex-direction: row;
+    top: 370px;
+    left: 350px;
+    width: 794px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+}
+.result2-article:hover{
+    box-shadow: 13px 13px 20px #00000029;
+    border: 1px solid black;
+}
+.pagination{
+   position: absolute;
+   top: 630px;
+   left: 50%;
+}

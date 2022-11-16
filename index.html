@@ -5,98 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
+    <link rel="shortcut icon" href="./logo_img.jpeg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-    <style>
-        *{
-            font-family: 'Kanit', sans-serif;
-        }
-        header{
-            display: flex;
-            align-items: center;
-            background-color: rgb(208, 165, 235);
-            height: 80px;
-            position: relative;
-        }
-        .logo-span{
-            display: flex;
-            background-color: white;
-            border-radius: 50%;
-            padding: 10px 10px;
-            height: 40px;
-            width: 40px;
-            align-items: center;
-            justify-content: center;
-            margin-left: 15px;
-            position: absolute;
-            left: 50px;
-        }
-        .logo{
-            color:rgb(208, 165, 235);
-            font-size: 40px;
-            text-decoration: none;
-        }
-        .login-signup{
-            position: absolute;
-            right: 10px;
-            word-spacing: 10px;
-        }
-        .login{
-            color: white;
-            text-decoration: none;
-        }
-        .create-account{
-            color: white;
-            text-decoration: none;
-            border: 2px solid white;
-            border-radius: 5px;
-            padding: 5px 5px;
-            word-spacing: normal;
-        }
-        section{
-            position: relative;
-            padding: 20px 50px;
-        }
-        .title-text{
-            color: blue;
-            font-weight: 600;
-            font-size: 35px;
-            text-decoration: none;
-        }
-        .filters-article{
-            box-shadow: 0px 3px 6px #00000029;
-            opacity: 1;
-            margin-top: 10px;
-            width: 250px;
-            height: 600px;
-        }
-        .result1-article{
-            top: 80px;
-            left: 350px;
-            width: 794px;
-            height: 250px;
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            box-shadow: 0px 3px 6px #00000029;
-            opacity: 1;
-            position: absolute;
-        }
-        .result2-article{
-            top: 370px;
-            left: 350px;
-            width: 794px;
-            height: 250px;
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            box-shadow: 0px 3px 6px #00000029;
-            opacity: 1;
-            position: absolute;
-        }
-        .pagination{
-           position: absolute;
-           top: 630px;
-           left: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     
 
 </head>
@@ -104,28 +17,39 @@
     <!-- header box -->
     <header>
         <span class="logo-span">
-            <a href="index.html" class="logo">e!</a>
+            
         </span>
         <span class="login-signup">
-            <a href="#" class="login">Login</a>
-            <a href="#" class="create-account">Create An Account</a>
+            <button class="login">Login</button>
+            <button class="create-account">Create an account</button>
         </span>
     </header>
    <!-- main content -->
     <main>
         <section>
-            <div class="title-text">Breakfast places in india</div>
+            <div class="title-text">Best Foods In North East</div>
             <article class="filters-article">
-                Filters
+                Filter your choice
             </article>
             <article class="result1-article">
-                Result 1
+                <div class="food-picture">
+                    <img src="./food1.jpg" height="100%" alt="Biriyani">
+                </div>
+                <div class="food-details">
+                   <h1>Biriyani</h1>
+                   <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nobis autem aliquam accusantium itaque blanditiis ab culpa id quia esse provident labore aliquid amet reprehenderit, quidem recusandae debitis laboriosam repudiandae voluptas harum nostrum temporibus delectus? Perferendis incidunt vel natus fuga.</b>
+                   <br><h1>&#8377; 250</h1>
+                </div>
             </article>
             <article class="result2-article">
-                Result 2
-            </article>
-            <article class="result3-article">
-                Result 3
+                <div class="food-picture">
+                    <img src="./food2.jfif" height="100%" alt="Pizza">
+                </div>
+                <div class="food-details">
+                    <h1>Pizza</h1>
+                    <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nobis autem aliquam accusantium itaque blanditiis ab culpa id quia esse provident labore aliquid amet reprehenderit, quidem recusandae debitis laboriosam repudiandae voluptas harum nostrum temporibus delectus? Perferendis incidunt vel natus fuga.</b>
+                    <br><h1>&#8377; 250</h1>
+                </div>
             </article>
             <div class="pagination">
                 <a>&lt;</a>
