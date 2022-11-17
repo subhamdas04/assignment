@@ -134,8 +134,24 @@ section{
 .result2-article:hover{
     box-shadow: 13px 13px 20px #00000029;
 }
+
+.result3-article{
+    display: flex;
+    flex-direction: row;
+    top: 665px;
+    left: 350px;
+    width: 794px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+}
+.result3-article:hover{
+    box-shadow: 13px 13px 20px #00000029;
+}
 .pagination{
    position: absolute;
-   top: 630px;
+   top: 950px;
    left: 50%;
 }
