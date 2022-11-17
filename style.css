@@ -101,7 +101,6 @@ section{
 }
 .result1-article:hover{
     box-shadow: 13px 13px 20px #00000029;
-    border: 1px solid black;
 }
 .food-picture{
     display: flex;
@@ -117,7 +116,6 @@ section{
     height: 100%;
     width: 65%;
     margin-left: 5%;
-    
 }
 .result2-article{
     display: flex;
@@ -133,7 +131,6 @@ section{
 }
 .result2-article:hover{
     box-shadow: 13px 13px 20px #00000029;
-    border: 1px solid black;
 }
 .pagination{
    position: absolute;
