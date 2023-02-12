@@ -99,7 +99,7 @@ section{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
-    position: absolute;
+    position: absolute; 
 }
 .result1-article:hover{
     box-shadow: 13px 13px 20px #00000029;
@@ -130,6 +130,7 @@ section{
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     position: absolute;
+    user-select: none;
 }
 .result2-article:hover{
     box-shadow: 13px 13px 20px #00000029;
@@ -146,6 +147,7 @@ section{
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     position: absolute;
+    user-select: none;
 }
 .result3-article:hover{
     box-shadow: 13px 13px 20px #00000029;
